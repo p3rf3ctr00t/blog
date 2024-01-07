@@ -1,11 +1,11 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Perfectroot
+subtitle: To change later
+welcome_message: insert flag
+# description: Vno Jekyll is a port of my Ghost theme vno.
+creator: perfectroot
 
-url: "http://vno.onevcat.com"
+# url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
 
@@ -13,17 +13,20 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
-
+cover_color: green
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: CTF writeups
+    description: Our Writeups
+
+about_button:
+    title: about
+    description: about
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: Projects, description: Team members blogs }
+    - {title: About Us, description: About, url: _about}
 
 # Pagination
 plugins: [jekyll-paginate]
@@ -31,17 +34,17 @@ paginate: 10
 paginate_path: "page/:num/"
 
 # Comment
-comment:
-    disqus: vno-jekyll
+# comment:
+#     disqus: p3rf3ctr00t
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    #weibo: onevcat
+    github: p3rf3ctr00t
+    twitter: p3rf3ctr00t
+    #gplus: 107108267983477358170
+    mail: p3rf3ctr00t001@gmail.com
 
 # Google Analytics
 ga:
